@@ -56,7 +56,8 @@ body {
 }
 
 .mlstat-color-bg {
-    background-color: #180122;
+    background: rgb(90,19,100);
+background: linear-gradient(35deg, rgba(90,19,100,1) 0%, rgba(25,2,35,1) 50%, rgba(47,29,115,1) 100%);
 }
 
 .ml {
@@ -70,4 +71,9 @@ body {
 a:link {
     color: white;
     text-decoration: none;
+}
+
+a:l {
+    color: #ff8e00;
+    text-decoration: #ff8e00;
 }
