@@ -73,7 +73,11 @@ a:link {
     text-decoration: none;
 }
 
-a:l {
+a:hover {
+    color: #ff8e00 !important;
+    text-decoration: underline !important;
+}
+
+.mlstat-color {
     color: #ff8e00;
-    text-decoration: #ff8e00;
 }
