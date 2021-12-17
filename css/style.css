@@ -81,3 +81,22 @@ a:hover {
 .mlstat-color {
     color: #ff8e00;
 }
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.tab-active {
+    box-shadow: inset 0 0 1rem rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.178);
+}
+
+#tier {
+    background: #FFFFFF;
+    background: -webkit-linear-gradient(to bottom, #FFFFFF 0%, #F9FFA8 45%, #CF6800 100%);
+    background: -moz-linear-gradient(to bottom, #FFFFFF 0%, #F9FFA8 45%, #CF6800 100%);
+    background: linear-gradient(to bottom, #FFFFFF 0%, #F9FFA8 45%, #CF6800 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
